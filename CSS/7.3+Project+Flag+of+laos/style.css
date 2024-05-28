@@ -1,0 +1,37 @@
+#red-div{
+    background-color: red;
+    height: 600px;
+    width: 900px;
+    position: relative;
+}
+#blue-div{
+    background-color: navy;
+    height: 50%;
+    width: 900px;
+    position: absolute;
+    top: 25%;
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+#red-div>p{
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    
+}
+#red-div > div>div>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 5rem;
+    text-align: center;
+
+}
