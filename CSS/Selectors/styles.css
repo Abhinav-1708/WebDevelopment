@@ -1,0 +1,65 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Class selector */
+.intro {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555; 
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Class selector with multiple classes */
+.content {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* ID selector */
+#main-heading {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+/* Attribute selector */
+a[target="_blank"] {
+    color: #007BFF;
+    text-decoration: none;
+    border-bottom: 1px dashed #007BFF;
+}
+
+a[target="_blank"]:hover {
+    color: #0056b3;
+    border-bottom: 1px solid #0056b3;
+}
+
+/* Attribute selector for input */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
