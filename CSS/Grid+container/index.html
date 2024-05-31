@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1.5fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 1rem;
+
+        }
+        .item   {
+            font-size: 5rem;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .cowboy{
+            background-color: darkorchid;
+            grid-column: span 2;
+        }
+        .book{
+            background-color: darkcyan;
+            grid-column: span 2;
+        }
+        .astronaut{
+            background-color: darkgoldenrod;
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item cowboy">🤠</div>
+        <div class="item astronaut">👨‍🚀</div>
+        <div class="item book">📖</div>
+    </div>
+</body>
+</html>
